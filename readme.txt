@@ -20,3 +20,9 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic msgdrone
 7. Open another terminal in the Project_Scala file and "sbt run", choose to run Producer
 
 8. ploter_DB_maker.ipynb use data.json to do database and data viz
+
+Authors:
+
+- Mickaël Cheng
+- Theo Matas
+- Nicolas Berat
