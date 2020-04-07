@@ -1,0 +1,58 @@
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Consumer.scala:6:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.consumer.KafkaConsumer[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Consumer.scala:24:17: not found: type KafkaConsumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val consumer: KafkaConsumer[String, String] = new KafkaConsumer[String, String](props)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Consumer.scala:24:53: not found: type KafkaConsumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val consumer: KafkaConsumer[String, String] = new KafkaConsumer[String, String](props)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Main.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.{SparkConf, SparkContext}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Main.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.rdd._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Main.scala:6:21: object utils is not a member of package com.tp.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.tp.spark.utils.Message[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Main.scala:7:21: object utils is not a member of package com.tp.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.tp.spark.utils.Message._[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Main.scala:8:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.producer.ProducerRecord[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Main.scala:18:20: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m    val conf = new SparkConf()[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Main.scala:22:14: not found: value SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val sc = SparkContext.getOrCreate(conf)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Producer.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.producer._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Producer.scala:7:21: object utils is not a member of package com.tp.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.tp.spark.utils.Message[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Producer.scala:8:21: object utils is not a member of package com.tp.spark[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.tp.spark.utils.Message._[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Producer.scala:20:22: not found: type KafkaProducer[0m
+[0m[[0m[31merror[0m] [0m[0m  val producer = new KafkaProducer[String, String](props)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Producer.scala:24:23: not found: type msg[0m
+[0m[[0m[31merror[0m] [0m[0m  val messages : List[msg] = List()[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Producer.scala:28:35: not found: value Message[0m
+[0m[[0m[31merror[0m] [0m[0m  def writeToKafka(messages: List[Message.msg]): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Producer.scala:42:20: not found: type msg[0m
+[0m[[0m[31merror[0m] [0m[0m      val message: msg = new msg(key, Summons_Number, Plate_ID, Issue_Date, Violation_Code, Violation_Description,[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Producer.scala:42:30: not found: type msg[0m
+[0m[[0m[31merror[0m] [0m[0m      val message: msg = new msg(key, Summons_Number, Plate_ID, Issue_Date, Violation_Code, Violation_Description,[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/mick/Bureau/Project_scala/src/main/scala/com/tp/spark/core/Producer.scala:45:24: not found: type ProducerRecord[0m
+[0m[[0m[31merror[0m] [0m[0m      val record = new ProducerRecord(topic, key, message.getJson());[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m19 errors found[0m
